@@ -33,13 +33,13 @@ CodeLens/
 │   └── scripts/               # Utility scripts (e.g., compiler checks)
 │
 ├                              # HTML, CSS, Vanilla JS
-├   ├── index.html
-├   ├── admin.html
-├   ├── notes.html
-├   ├── editor.html
-│   ├── css/                   # Stylesheets for themes, editor, dashboards
-│   ├── js/                    # Core logic, auth, API integration, UI controllers
-│   └── Visualization Engine/  # The core engines for rendering code & memory states
+├── index.html
+├── admin.html
+├── notes.html
+├── editor.html
+│── css/                   # Stylesheets for themes, editor, dashboards
+│── js/                    # Core logic, auth, API integration, UI controllers
+│── Visualization Engine/  # The core engines for rendering code & memory states
 │       ├── D.S Engine/        # Data structure renders
 │       └── Memory Engine/     # Stack/Heap visualization
 └── 
