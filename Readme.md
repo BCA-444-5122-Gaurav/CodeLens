@@ -32,15 +32,17 @@ CodeLens/
 │   ├── routes/                # API endpoints (auth, execute, examples, admin)
 │   └── scripts/               # Utility scripts (e.g., compiler checks)
 │
-├── Frontend/                  # HTML, CSS, Vanilla JS
+├                              # HTML, CSS, Vanilla JS
+├   ├── index.html
+├   ├── admin.html
+├   ├── notes.html
+├   ├── editor.html
 │   ├── css/                   # Stylesheets for themes, editor, dashboards
 │   ├── js/                    # Core logic, auth, API integration, UI controllers
 │   └── Visualization Engine/  # The core engines for rendering code & memory states
 │       ├── D.S Engine/        # Data structure renders
 │       └── Memory Engine/     # Stack/Heap visualization
-│
-├── CodeLens_Documentation.html
-└── CodeLens_Project_Report_Draft.md
+└── 
 ```
 
 ## 🛠️ Tech Stack
@@ -82,8 +84,8 @@ CodeLens/
     ```
 
 3. **Run the Frontend**
-    Since the frontend is built with pure HTML/JS, you can serve it using any local web server (e.g., Live Server extension in VS Code) from the `Frontend/` folder.
-    *Open `Frontend/index.html` in your browser.*
+    Since the frontend is built with pure HTML/JS, you can serve it using any local web server (e.g., Live Server extension in VS Code).
+    *Open `index.html` in your browser.*
 
 ## 📄 License
 
