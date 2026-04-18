@@ -15,7 +15,6 @@ const mongoose = require('mongoose');
  */
 async function connectDB() {
     // using the explicit connection string since Node.js DNS resolver on some IPv6 setups fails on SRV records
-    const fallbackURI = 'mongodb://CodeLens-Admin:Gaurav%26Kr%40%253000@ac-is82kgt-shard-00-00.w088iwi.mongodb.net:27017,ac-is82kgt-shard-00-01.w088iwi.mongodb.net:27017,ac-is82kgt-shard-00-02.w088iwi.mongodb.net:27017/?appName=CodeLens&authSource=admin&replicaSet=atlas-gvgap4-shard-0&ssl=true';
     const mongoURI = process.env.MONGODB_URI || fallbackURI;
 
     try {
